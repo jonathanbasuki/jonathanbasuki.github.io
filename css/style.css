@@ -494,6 +494,7 @@ section.dark .section-title::after {
   margin: 15px auto;
   cursor: pointer;
   transition: 0.3s linear;
+  border-radius: 10px;
 }
 
 #contact .contact-form .btn:hover {
