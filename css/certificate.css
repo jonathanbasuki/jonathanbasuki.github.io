@@ -1,0 +1,46 @@
+/* Certificate */
+#certificate .block {
+  width: calc(50% - 20px);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 30px;
+  position: relative;
+}
+
+#certificate .block::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 120%;
+  background-color: #ddd;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#certificate .block::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #48dbfb;
+  left: -28px;
+  top: 30px;
+  border-radius: 50%;
+}
+
+#certificate .block h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+#certificate .block p {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+#certificate .block a.view {
+  color: #46dbfb;
+}

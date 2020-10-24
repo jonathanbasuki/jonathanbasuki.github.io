@@ -1,0 +1,15 @@
+/* Footer */
+footer {
+  background: url(../img/hero.png) no-repeat;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer .copyright {
+  margin-bottom: 20px;
+}
+
+footer .copyright span {
+  color: #46dbfb;
+}

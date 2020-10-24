@@ -1,0 +1,100 @@
+/* About */
+#about .about-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#about .profile {
+  width: 200px;
+  border-radius: 50%;
+  margin-right: 100px;
+}
+
+#about .about-text {
+  flex: 1;
+}
+
+#about .about-text h3 {
+  margin: 10px 0;
+  color: #444;
+  font-size: 1rem;
+}
+
+#about .about-text h3 span:nth-child(1):after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #444;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+#about .about-text p {
+  font-size: 1.1rem;
+  text-align: justify;
+  line-height: 1.8rem;
+  margin-top: 20px;
+}
+
+#about .about-text p.quote {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 0.8rem;
+}
+
+#about .skills {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#about .skill {
+  width: calc(50% - 20px);
+  margin: 15px 0;
+}
+
+#about .skill-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about .skill-bar {
+  height: 3px;
+  background-color: #ddd;
+  margin-top: 14px;
+  position: relative;
+}
+
+#about .skill-bar::after {
+  content: "";
+  position: absolute;
+  height: 6px;
+  background-color: #48dbfb;
+  bottom: 0;
+}
+
+#about .html::after {
+  width: 70%;
+}
+
+#about .css::after {
+  width: 60%;
+}
+
+#about .js::after {
+  width: 5%;
+}
+
+#about .php::after {
+  width: 10%;
+}
+
+#about .python::after {
+  width: 70%;
+}
+
+#about .framework::after {
+  width: 1%;
+}

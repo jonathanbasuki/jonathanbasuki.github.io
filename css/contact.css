@@ -1,0 +1,78 @@
+/* Contact */
+#contact .contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#contact .contact-info i {
+  display: block;
+  font-size: 2rem;
+  line-height: 120px;
+  height: 100px;
+  color: white;
+}
+
+#contact .contact-info .item {
+  width: calc(33% - 20px);
+  height: 160px;
+  background-color: #475166;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+#contact .contact-info .item:hover {
+  background-color: #48dbfb;
+}
+
+#contact .contact-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 60px;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  height: 50px;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  color: #888;
+  padding: 10px 6px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#contact .contact-form .name,
+#contact .contact-form .email {
+  width: calc(50% - 10px);
+}
+
+#contact .contact-form .message {
+  min-height: 100px;
+  resize: vertical;
+}
+
+#contact .contact-form .btn {
+  width: 180px;
+  background-color: transparent;
+  color: #48dbfb;
+  font-size: 16px;
+  border: 2px solid #48dbfb;
+  margin: 15px auto;
+  cursor: pointer;
+  transition: 0.3s linear;
+  border-radius: 10px;
+}
+
+#contact .contact-form .btn:hover {
+  background-color: #48dbfb;
+  color: #fff;
+}
