@@ -92,7 +92,7 @@ section.dark .section-title::after {
   color: #46dbfb;
 }
 
-/* Go Top Button */
+/* Top Button */
 button.top {
   z-index: 999;
   position: fixed;
