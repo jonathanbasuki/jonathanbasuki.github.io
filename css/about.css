@@ -75,25 +75,25 @@
 }
 
 #about .html::after {
-  width: 70%;
-}
-
-#about .css::after {
-  width: 60%;
+  width: 65%;
 }
 
 #about .js::after {
-  width: 5%;
+  width: 25%;
 }
 
-#about .php::after {
-  width: 10%;
+#about .sql::after {
+  width: 35%;
 }
 
 #about .python::after {
-  width: 70%;
+  width: 65%;
 }
 
-#about .framework::after {
-  width: 1%;
+#about .php::after {
+  width: 45%;
+}
+
+#about .java::after {
+  width: 30%;
 }
