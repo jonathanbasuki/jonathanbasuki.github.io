@@ -1,0 +1,64 @@
+@import "fonts";
+@import "variables";
+@import "mixins";
+
+// Certificates Section
+#certificate {
+  .block {
+    width: calc(50% - 20px);
+    background-color: $text-light;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 30px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 1px;
+      height: 120%;
+      background-color: #ddd;
+      left: -20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background-color: $primary;
+      left: -28px;
+      top: 30px;
+      border-radius: 50%;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 15px;
+      color: #444;
+      margin-bottom: 10px;
+    }
+
+    a.view {
+      color: $primary;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  #certificate {
+    .block {
+      width: calc(100% - 20px);
+      margin-left: auto;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+}

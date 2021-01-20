@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap");
 footer {
   background: url(../img/hero.png) no-repeat;
   color: #fff;
@@ -10,5 +13,6 @@ footer .copyright {
 }
 
 footer .copyright span {
-  color: #46dbfb;
+  color: #48dbfb;
 }
+/*# sourceMappingURL=footer.css.map */

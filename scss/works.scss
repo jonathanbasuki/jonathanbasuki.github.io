@@ -1,0 +1,54 @@
+@import "fonts";
+@import "variables";
+@import "mixins";
+
+// Projects Section
+#projects {
+  .project {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+
+    img {
+      width: 100%;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 1px 1px 1px solid $secondary;
+
+      &:hover {
+        opacity: 0.5;
+        transition: 0.3s linear;
+      }
+    }
+
+    .btn-light {
+      @include project-button();
+    }
+
+    .btn-dark {
+      @include project-button($bg-light, $secondary);
+    }
+  }
+
+  .item {
+    .project-image {
+      color: $bg-light;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  #projects {
+    .project {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  #projects {
+    .project {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

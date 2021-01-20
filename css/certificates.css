@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap");
 #certificate .block {
   width: calc(50% - 20px);
   background-color: #fff;
@@ -41,5 +44,13 @@
 }
 
 #certificate .block a.view {
-  color: #46dbfb;
+  color: #48dbfb;
 }
+
+@media (max-width: 960px) {
+  #certificate .block {
+    width: calc(100% - 20px);
+    margin-left: auto;
+  }
+}
+/*# sourceMappingURL=certificates.css.map */

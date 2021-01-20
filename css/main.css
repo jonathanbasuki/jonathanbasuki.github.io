@@ -1,13 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
   text-decoration: none;
-  font-family: "Ubuntu", sans-serif;
   box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #f1f1f1;
 }
 
 ::selection {
@@ -28,7 +37,21 @@ section {
   background-color: #f1f1f1;
 }
 
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 40px;
+}
+
 .section-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   text-align: center;
   margin-bottom: 80px;
   position: relative;
@@ -82,17 +105,16 @@ section.dark .section-title::after {
 }
 
 .social a {
-  color: white;
+  color: #fff;
   font-size: 1.6rem;
   margin: 0 5px;
   transition: 0.2s linear;
 }
 
 .social a:hover {
-  color: #46dbfb;
+  color: #48dbfb;
 }
 
-/* Top Button */
 button.top {
   z-index: 999;
   position: fixed;
@@ -112,6 +134,19 @@ button.top {
 /* Keyframes */
 @keyframes textanimate {
   50% {
-    content: " A Student";
+    content: " a Student";
   }
 }
+
+@media (max-width: 960px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

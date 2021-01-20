@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap");
 #contact .contact-info {
   display: flex;
   justify-content: space-between;
@@ -9,14 +12,14 @@
   font-size: 2rem;
   line-height: 120px;
   height: 100px;
-  color: white;
+  color: #fff;
 }
 
 #contact .contact-info .item {
   width: calc(33% - 20px);
   height: 160px;
   background-color: #475166;
-  color: white;
+  color: #fff;
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
@@ -75,3 +78,18 @@
   background-color: #48dbfb;
   color: #fff;
 }
+
+@media (max-width: 960px) {
+  #contact .contact-info .item {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  #contact .contact-form .name,
+  #contact .contact-form .email {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

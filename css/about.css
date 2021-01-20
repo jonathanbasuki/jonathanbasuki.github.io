@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap");
 #about .about-content {
   display: flex;
   align-items: center;
@@ -20,7 +23,7 @@
   font-size: 1rem;
 }
 
-#about .about-text h3 span:nth-child(1):after {
+#about .about-text h3:nth-child(1):after {
   content: "";
   width: 6px;
   height: 6px;
@@ -97,3 +100,20 @@
 #about .java::after {
   width: 30%;
 }
+
+@media (max-width: 960px) {
+  #about .profile {
+    margin: 0 auto 60px;
+  }
+  #about .about-text {
+    flex: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  #about .skill {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=about.css.map */

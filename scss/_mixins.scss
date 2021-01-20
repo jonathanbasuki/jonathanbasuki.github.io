@@ -1,0 +1,17 @@
+// Mixins
+@mixin project-button($color: $bg-dark, $bg-color: $bg-light) {
+  display: block;
+  padding: 10px 0;
+  border: 0;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  text-align: center;
+  background-color: $bg-color;
+  color: $color;
+
+  &:hover {
+    background-color: $primary;
+    color: $text-light;
+  }
+}
