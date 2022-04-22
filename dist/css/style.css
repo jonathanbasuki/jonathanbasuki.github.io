@@ -532,10 +532,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 9999px;
 }
 
-.border{
-  border-width: 1px;
-}
-
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -546,9 +542,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 3rem;
 }
 
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
+.pr-6{
+  padding-right: 1.5rem;
 }
 
 .text-justify{
@@ -582,68 +577,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(45 66 99 / var(--tw-text-opacity));
 }
 
-@-webkit-keyframes bounce{
-  0%, 100%{
-    transform: translateY(-25%);
-    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
-            animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50%{
-    transform: none;
-    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
-            animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-@keyframes bounce{
-  0%, 100%{
-    transform: translateY(-25%);
-    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
-            animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50%{
-    transform: none;
-    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
-            animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-.hover\:animate-bounce:hover{
-  -webkit-animation: bounce 1s infinite;
-          animation: bounce 1s infinite;
-}
-
-.hover\:border-b-4:hover{
-  border-bottom-width: 4px;
-}
-
-.hover\:border-current:hover{
-  border-color: currentColor;
-}
-
-.hover\:font-bold:hover{
-  font-weight: 700;
-}
-
 .hover\:text-black:hover{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.hover\:drop-shadow-md:hover{
-  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .hover\:drop-shadow-sm:hover{
   --tw-drop-shadow: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.hover\:drop-shadow-lg:hover{
-  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
